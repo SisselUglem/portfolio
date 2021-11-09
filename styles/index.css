@@ -1,0 +1,156 @@
+
+/*--------about----------*/
+.about-me {
+    background-color:#161616;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 0.6);
+}
+/*--------end about----------*/
+
+/*--------experience----------*/
+.experience-1 {
+    background-color:#161616;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 0.6);
+}
+
+.experience-1-cont {
+    background-color: #2b2b2b;
+    border-radius: 7px;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 0.6);
+}
+
+.experience__headline {
+    cursor: pointer;
+    justify-content: end;
+    flex-direction: row;
+    background-color: transparent;
+    border: none;
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size:36px;
+    line-height:42px;
+    letter-spacing:.05em;
+    color:#a08b62;
+}
+
+.experience__headline:hover {
+    transition: transform .2s;
+    transform: scale(1.1);
+}
+
+a:link{
+    text-decoration: none!important;
+}
+
+.experience-2 {
+    background-image: url(../assets/backgrund.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.experience-container {
+    flex-direction: column;
+    background-color:#161616;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 0.6);
+}
+
+
+.experience-container-2 {
+    flex-direction: column;
+    background-image: url(../assets/background-self-emp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 0.6);
+}
+
+
+.education {
+    cursor: pointer;
+}
+
+
+.mydiv {
+    display: none;
+}
+
+ul li {
+    color:rgb(207, 207, 207);
+    font-size: 13px;
+    line-height: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+}
+
+.web-link:hover {
+    color:#a08b62;
+}
+.bullets-left {
+    text-align: right;
+    list-style-type: circle;
+    direction:rtl;
+    margin: 0 0 0 1em;
+}
+/*------------work----------->*/
+.img-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    overflow: hidden;
+}
+
+.img-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .img-column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .self-list {
+        padding-right: 0.5em !important;
+    }
+    .experience-container .experience-container-2 {
+        width: 100%;
+        max-width: none;
+      }
+}
+/*------------end work----------->*/
+/*------------contact----------->*/
+label {
+    display: none;
+}
+
+.input-field {
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;font-weight:300;
+    font-size:15px;line-height:25px;
+    color:rgb(37, 37, 37);
+    background-color: rgb(230, 230, 230);
+    padding-left: 5px;
+}
+
+.input-field:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.input-field:active {
+    background-color: rgb(255, 255, 255);
+}
+.input-field:focus {
+    background-color: rgb(255, 255, 255);
+}

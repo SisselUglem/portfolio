@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600;700&family=Montserrat:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://kit.fontawesome.com/8c2d0c6396.js" crossorigin="anonymous"></script>
+    <meta name="description" content="Webbutveckling och grafisk design">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Uglem Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container container-xl mx-auto px-4">
+            <nav class="navbar navbar-expand-sm navbar-dark px-md-5 pt-4 d-flex justify-content-between">
+                <a class="navbar-brand d-md-none py-auto my-auto" href="index.html"><img src="assets/logotype.svg"
+                        alt="Logotype" title="Logotype" width="120px"></a>
+                <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse"
+                    data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Collection of nav links, forms, and other content for toggling -->
+                <div id="navbarCollapse" class="collapse navbar-collapse justify-content-center">
+                    <div class="navbar-nav ml-auto">
+                        <a href="#about" class="nav-item nav-link active text-end"><span>about me</span></a>
+                        <a href="#experience" class="nav-item nav-link active text-end"><span>experience</span></a>
+                        <a href="#work" class="nav-item nav-link active text-end"><span>work</span></a>
+                        <a href="#contact" class="nav-item nav-link active text-end"><span>contact</span></a>
+                    </div>
+                </div>
+            </nav>
+            <hr class="d-md-block d-none" />
+            <div class="header row d-flex align-items-center justify-content-center">
+                <div class="col-md-9 col-12">
+                    <h4 class="d-none d-md-block">sissel uglem</h4>
+                    <hr class="w-25 mt-0 mb-md-5 mb-3 d-none d-md-block" />
+                    <h1 class="animate__animated animate__fadeInDown">Hi, I'm Sissel!</h1>
+                    <h5>Welcome to my portfolio</h5>
+                    <p class="d-md-none pt-4">Designer & Front-end Developer
+                    </p>
+                    <p class="pt-4 d-none d-md-block">I'm a Front End Developer who loves design in all its forms. Take
+                        a look at my
+                        previous experiences and projects in this portfolio.
+                        Do not hesitate to contact me if you have any questions!
+                    </p>
+                    <img class="d-none animate__animated animate__fadeInDown img-fluid" src="assets/logotype.svg"
+                        alt="Logotype" title="Uglem Logotype">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="container-xl mx-auto py-md-5 px-0 d-flex justify-content-center">
+            <div
+                class="about-me row d-flex align-items-center justify-content-center my-md-5 py-md-5 py-2 w-md-75 animate__animated animate__fadeInUp">
+                <img class="col-12 col-md-5 img-fluid px-0" src="assets/portrait-me.png" alt="Portrait"
+                    title="Portrait">
+                <div class="col-12 col-md-6 px-4 px-md-0">
+                    <h4>about me</h4>
+                    <hr class="w-25 mt-0 mb-2 mb-md-0" />
+                    <h2 class="text-start py-md-4 py-2 m-0">Sissel Uglem</h2>
+                    <p class="d-md-none  pt-2">I am a creative person born and raised in the north of Sweden who's always up for new adventures. 
+                        When I am not developing or designing, you will usually find me outside in nature. Preferably in the mountains! 
+                        I pride myself in being a fast learner and actively applying my skillset to any new role that I face. Having 
+                        always had a passion for organization and planning, I relish the opportunity to work in a fast-moving field where 
+                        I get to put my skills to work.
+                    </p>
+                    <p class="d-none d-md-block">I am a creative person born and raised in the north of Sweden who's always up for new adventures. 
+                        When I am not developing or designing, you will usually find me outside in nature. Preferably in the mountains! 
+                        I pride myself in being a fast learner and actively applying my skillset to any new role that I face. Having 
+                        always had a passion for organization and planning, I relish the opportunity to work in a fast-moving field where 
+                        I get to put my skills to work.
+                    </p>
+                    <a href="#contact"><button class="btn-main btn-outline py-1 px-3 my-4">contact</button></a>
+                </div>
+            </div>
+        </section>
+        <section class="experience-1 mt-md-5 mx-auto d-flex justify-content-center">
+            <button class="top" onclick="topFunction()" id="myBtn" title="Go to top">Top <i
+                    class="icon-c fas fa-chevron-up"></i></button>
+            <div class="d-md-flex d-none container-xl row d-flex justify-content-center py-5">
+                <div class="col-3 text-center p-2">
+                    <i class="icon fas fa-graduation-cap p-3"></i>
+                    <h3 class="text-center p-3 m-0">Education</h3>
+                    <button onclick="location.href='#experience'" class="link-btn scroll-button" type="submit">
+                        read more
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+                <div class="col-3 text-center p-2">
+                    <i class="icon fas fa-laptop p-3"></i>
+                    <h3 class="text-center p-3 m-0">Self-employed</h3>
+                    <button onclick="location.href='#experience'" class="link-btn scroll-button" type="submit">
+                        read more
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+                <div class="col-3 text-center p-2">
+                    <i class="icon fas fa-palette p-3"></i>
+                    <h3 class="text-center p-3 m-0">work</h3>
+                    <button onclick="location.href='#work'" class="scroll-button" type="submit">
+                        read more
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="experience" class="experience-2 py-5">
+            <div class="row align-items-center justify-content-between py-5">
+                <hr class="w-25 my-auto" />
+                <h2 class="d-flex col-md-4 col-5">Experience</h2>
+                <hr class="w-25 my-auto" />
+            </div>
+            <!--For mobile-->
+            <div class="container-xl d-md-none d-block">
+                <div class="d-flex">
+                    <div class="experience-container w-100 p-md-5 p-3 my-3">
+                        <h2 class="experience__headline text-start p-3" type="button" data-toggle="collapse" data-target="#education-mobile" aria-expanded="false" aria-controls="education-mobile">
+                            Education
+                            <i class="icon-a fas fa-chevron-down"></i>
+                        </h2>
+                        <div id="education-mobile" class="collapse" >
+                            <i class="icon-a fas fa-graduation-cap py-2 w-100">
+                                <p> Industrial design<br>Designgymnasiet | Stockholm 2007-2010</p>
+                            </i>
+                            <i class="icon-a fas fa-graduation-cap py-2 w-100">
+                                <p> Programming in C#<br>Hermods | Östersund 2021</p>
+                            </i>
+                            <i class="icon-a fas fa-graduation-cap py-2 w-100">
+                                <p> Front end Development<br>Sundsgårdens Folkhögskola | Helsingborg 2021-2022</p>
+                            </i>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="experience-container-2 w-100 p-md-5 p-3 my-3">
+                        <h2 class="experience__headline p-3" type="button" data-toggle="collapse" data-target="#self-employed-mobile" aria-expanded="false" aria-controls="self-employed-mobile">
+                            Self-employed <i class="icon-a fas fa-chevron-down"></i></h2>
+                        <div id="self-employed-mobile" class="collapse">
+                            <p class="pb-3">I run my own business where I
+                                offer services in web development
+                                and other marketing services such as creating logotypes and adds for social media, and
+                                magazines.
+                            </p>
+                            <div class="self-list row d-flex align-items-center pr-4">
+                                <i class="col-1 icon-b fas fa-code py-2 text-md-start"></i>
+                                <p class="col-9 my-0"> Web development</p>
+                            </div>
+                            <div class="self-list row d-flex align-items-center">
+                                <i class="col-1 icon-b fas fa-palette py-2 text-md-start"></i>
+                                <p class="col-9 my-0"> Web design</p>
+                            </div>
+                            <div class="self-list row d-flex align-items-center">
+                                <i class="col-1 icon-b fas fa-object-ungroup py-2 text-md-start"></i>
+                                <p class="col-9 my-0"> Adds and grapich design</p>
+                            </div>
+                            <a href="http://uglem.se/" target="_blank"><button class="btn-main btn-outline py-1 px-3 my-5">visit website</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="experience-container w-100 p-md-5 p-3  my-3">
+                        <h2 class="experience__headline text-start p-3" type="button" data-toggle="collapse" data-target="#software-mobile" aria-expanded="false" aria-controls="software-mobile">
+                            Software <i class="icon-a fas fa-chevron-down"></i></h2>
+                        <div id="software-mobile" class="collapse">
+                            <p class="w-100 pb-3">Through my previous educations and my own commitment,
+                                I have knowledge in the following programs and programming languages
+                            </p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h4>Webb</h4>
+                                    <ul>
+                                        <li>Visual Studio Code</li>
+                                        <li>Visual Studio</li>
+                                        <li>Wordpress</li>
+                                        <li>Woocommerce</li>
+                                        <li>GIT</li>
+                                        <li>Github</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>bootstrap</li>
+                                        <li>SASS</li>
+                                        <li>Javascript</li>
+                                        <li>React</li>
+                                        <li>Figma</li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <h4>Adobe</h4>
+                                    <ul>
+                                        <li>Photoshop</li>
+                                        <li>Illustrator</li>
+                                        <li>Dreamweaver</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="experience-container w-100 p-md-5 p-3 my-3">
+                        <h2 class="experience__headline p-3" type="button" data-toggle="collapse" data-target="#employments-mobile" aria-expanded="false" aria-controls="employments-mobile">
+                            Employments 
+                            <i class="icon-a fas fa-chevron-down"></i></h2>
+                        <div id="employments-mobile" class="collapse">
+                            <h4 class="pt-3">Operations Manager</h4>
+                            <p>Möbelmästarna Härjedalen (Hede Möbler KB) | 2017 - 2021</p>
+                            <!--<ul class="bullets-left text-end px-3">
+                                <li class="bullets-left">Coordination and organization</li>
+                                <li class="bullets-left">Accounting</li>
+                                <li class="bullets-left">Marketing manager and production of advertising material</li>
+                                <li class="bullets-left">Responsibility for operational activities and HR</li>
+                            </ul>-->
+                            <h4 class="pt-3">Part-time firefighter</h4>
+                            <p>Räddningstjänsten Jämtland | 2018 - Ongoing</p>
+                            <!--<ul class="bullets-left text-end px-3">
+                                <li class="bullets-left">Fire truck driver and smoke diver</li>
+                                <li class="bullets-left">Ability to work under pressure and make quick decisions</li>
+                                <li class="bullets-left">Collaboration and problem solving</li>
+                            </ul>-->
+                            <h4 class="pt-3">Warehouse manager and organizer</h4>
+                            <p>Alpha frakt AB, Arlanda | 2014 - 2017</p>
+                            <!--<ul class="bullets-left text-end px-3 ">
+                                <li class="bullets-left">Main responsibility for logistics and communication</li>
+                                <li class="bullets-left">Terminal worker and driver</li>
+                            </ul>-->
+                            <h4 class="pt-3">Technical manager and Coordinator</h4>
+                            <p>SKL Sweden's Municipalities & County Councils | 2013 - 2014</p>
+                            <!--<ul class="bullets-left text-end px-3">
+                                <li class="bullets-left">Organization and documentation of conferences and event</li>
+                                <li class="bullets-left">AV technician</li>
+                            </ul>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--fot desktop-->
+            <div class="container-xl d-md-block d-none">
+                <div class="d-flex">
+                    <div class="experience-container w-75 p-md-5 p-3 my-5">
+                        <div>
+                            <button class="experience__headline p-3 row align-items-end" type="button" data-toggle="collapse" data-target="#education" aria-expanded="false" aria-controls="education">
+                                Education
+                                <i class="icon-a fas fa-chevron-down pl-1 d-flex col-1 align-items-end"></i>
+                            </button>
+                        </div>
+                        <div id="education" class="collapse w-md-75">
+                            <i class="icon-a fas fa-graduation-cap py-2 w-100">
+                                <p> Industridesign<br>Designgymnasiet | Stockholm 2007-2010</p>
+                            </i>
+                            <i class="icon-a fas fa-graduation-cap py-2 w-100">
+                                <p> Programming in C#<br>Hermods | Östersund 2021</p>
+                            </i>
+                            <i class="icon-a fas fa-graduation-cap py-2 w-100">
+                                <p> Front end Development<br>Sundsgårdens Folkhögskola | Helsingbord 2021-2022</p>
+                            </i>
+                        </div>
+                    </div>
+                </div>
+                <div class="justify-content-end d-flex">
+                    <div class="experience-container-2 w-75 p-md-5 p-3 my-5 text-end justify-content-end d-flex">
+                        <div class="d-flex justify-content-end">
+                            <button class="experience__headline p-3 row align-items-end" type="button" data-toggle="collapse" data-target="#self-employed" aria-expanded="false" aria-controls="self-employed">
+                                My company
+                                <i class="icon-a fas fa-chevron-down pl-1 d-flex col-1 align-items-end"></i>
+                            </button>
+                        </div>
+                        <div id="self-employed" class="collapse">
+                            <p class=" pb-3 text-end">I run my own business where I
+                                offer services in web development
+                                and other marketing services such as creating logotypes and adds for social media, and
+                                magazines.
+                            </p>
+                            <div class="self-list row d-flex justify-content-end align-items-center pr-4">
+                                <p class="col-5 my-0"> Web development</p>
+                                <i class="col-1 icon-b fas fa-code py-2 text-md-start"></i>
+                            </div>
+                            <div class="self-list row d-flex justify-content-end align-items-center">
+                                <p class="col-5 my-0"> Web design</p>
+                                <i class="col-1 icon-b fas fa-palette py-2 text-md-start"></i>
+                            </div>
+                            <div class="self-list row d-flex justify-content-end align-items-center">
+                                <p class="col-5 my-0"> Adds and grapich design</p>
+                                <i class="col-1 icon-b fas fa-object-ungroup py-2 text-md-start"></i>
+                            </div>
+                            <a href="http://uglem.se/" target="_blank"><button class="btn-main btn-outline py-1 px-3 my-5">visit website</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="experience-container w-75 p-md-5 p-3  my-5">
+                        <div>
+                            <button class="experience__headline p-3 row align-items-end" type="button" data-toggle="collapse" data-target="#software" aria-expanded="false" aria-controls="software">
+                                Software
+                                <i class="icon-a fas fa-chevron-down pl-1 d-flex col-1 align-items-end"></i>
+                            </button>
+                        </div>
+                        <div id="software" class="collapse">
+                            <p class="w-md-75 pb-3">Through my previous educations and my own commitment,
+                                I have knowledge in the following programs and programming languages
+                            </p>
+                            <div class="row">
+                                <div class="col-4">
+                                    <h4>Webb</h4>
+                                    <ul>
+                                        <li>Visual Studio Code</li>
+                                        <li>Visual Studio</li>
+                                        <li>Wordpress</li>
+                                        <li>Woocommerce</li>
+                                        <li>GIT</li>
+                                        <li>Github</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>bootstrap</li>
+                                        <li>SASS</li>
+                                        <li>Javascript</li>
+                                        <li>React</li>
+                                        <li>Figma</li>
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                    <h4>Adobe</h4>
+                                    <ul>
+                                        <li>Photoshop</li>
+                                        <li>Illustrator</li>
+                                        <li>Dreamweaver</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="justify-content-end d-flex">
+                    <div class="experience-container w-75 p-md-5 p-3  my-5 text-md-end ">
+                        <div class="d-flex justify-content-end">
+                            <button class="experience__headline p-3 row align-items-end" type="button" data-toggle="collapse" data-target="#employments" aria-expanded="false" aria-controls="employments">
+                                Employments
+                                <i class="icon-a fas fa-chevron-down pl-1 d-flex col-1 align-items-end"></i>
+                            </button>
+                        </div>
+                        <div id="employments" class="collapse">
+                            <h4 class="text-end pt-3">Operations Manager</h4>
+                            <p class="text-end">Möbelmästarna Härjedalen (Hede Möbler KB) | 2017 - 2021</p>
+                            <h4 class="text-end pt-3">Part-time firefighter</h4>
+                            <p class="text-end">Räddningstjänsten Jämtland | 2018 - Ongoing</p>
+                            <h4 class="text-md-end pt-3">Warehouse manager and organizer</h4>
+                            <p class="text-end">Alpha frakt AB, Arlanda | 2014 - 2017</p>
+                            <h4 class="text-md-end pt-3">Technical manager and Coordinator</h4>
+                            <p class="">SKL Sweden's Municipalities & County Councils | 2013 - 2014</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="work">
+            <div class="row align-items-center justify-content-between py-5 mt-md-5">
+                <hr class="w-25" />
+                <h2 class="d-flex col-4">Work</h2>
+                <hr class="w-25" />
+            </div>
+            <div class="container-xl row align-items-center py-md-5 pt-0 mx-auto">
+                <div id="carouselExampleSlidesOnly" class="col-12 col-md-6 carousel .carousel-fade mx-auto px-0"
+                    data-ride="carousel" data-interval="2000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="assets/web/fjallbrollop.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/web/nysatern.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/web/mm.png" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/web/orren.png" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/web/myrruet.png" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/web/florist.png" alt="Third slide">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h4 class="mt-4 pt-5 pt-md-0">web design</h4>
+                    <hr class="w-25 my-0" />
+                    <h2 class="py-md-4 py-2">Web Development</h2>
+
+                    <a href="http://uglem.se/ " target="_blank" class="row d-flex align-items-center">
+                        <i class="icon-e col-1 fas fa-globe"></i>
+                        <p class="col-11 my-auto px-3 px-md-1 web-link">Uglem (my own company)</p>
+                    </a>
+                    <a href="https://www.fjallorren.se/" target="_blank" class="row d-flex align-items-center">
+                        <i class="icon-e col-1 fas fa-globe"></i>
+                        <p class="col-11 my-auto px-3 px-md-1 web-link"> Fjällorren</p>
+                    </a>
+                    <a href="https://nysaternsfjallgard.se/" target="_blank" class="row d-flex align-items-center">
+                        <i class="icon-e col-1 fas fa-globe"></i>
+                        <p class="col-11 my-auto px-3 px-md-1 web-link"> Nysäterns Fjällgård</p>
+                    </a>
+                    <a href="https://demo.mmharjedalen.se/" target="_blank" class="row d-flex align-items-center">
+                        <i class="icon-e col-1 fas fa-globe"></i>
+                        <p class="col-11 my-auto px-3 px-md-1 web-link"> Möbelmästarna Härjedalen</p>
+                    </a>
+                    <a href="http://fjallbrollopoevent.se/" target="_blank" class="row d-flex align-items-center">
+                        <i class="icon-e col-1 fas fa-globe"></i>
+                        <p class="col-11 my-auto px-3 px-md-1 web-link">Fjällbröllop & Event</p>
+                    </a>
+                    <a href="https://trumvallens-jakt.se/" target="_blank" class="row d-flex align-items-center">
+                        <i class="icon-e col-1 fas fa-globe"></i>
+                        <p class="col-11 my-auto px-3 px-md-1 web-link"> Trumvallens Jakt</p>
+                    </a>
+                    <a href="http://fjallfloristotradgard.se/" target="_blank" class="row d-flex align-items-center">
+                        <i class="icon-e col-1 fas fa-globe"></i>
+                        <p class="col-11 my-auto px-3 px-md-1 web-link"> Fjällflorist & Trädgård</p>
+                    </a>
+                </div>
+            </div>
+            <div class="experience-container py-5 my-5 px-4 border-box">
+                <div class="container-xl">
+                    <div class="text-md-start py-3 px-1">
+                        <h4>logotypes</h4>
+                        <hr class="w-25 my-0" />
+                        <h2 class="pt-4 pb-3">Graphic Design</h2>
+                        <p class="col-12 col-md-10 pb-3">Over the years, I have had the honor of designing logos and advertising
+                            materials for growing companies. This is a selection of the logos I have created. To see
+                            more,
+                            visit my website via the button below.
+                        </p>
+                    </div>
+                    <div class="img-row">
+                        <div class="img-column">
+                            <img class="web image-fluid" src="assets/img-gallery/visitkort-1.png" alt="Visitkort"
+                                title="Visitkort">
+                            <img class="web image-fluid" src="assets/img-gallery/logo-hovslageri.png"
+                                alt="Nysäterns Hovslageri" title="Nysäterns Hovslageri">
+                        </div>
+                        <div class="img-column">
+                            <img class="web image" src="assets/img-gallery/logo-kam.png" alt="KAM Frisör Makeup"
+                                title="KAM Frisör Makeup">
+                            <img class="web image" src="assets/img-gallery/bag.png" alt="Bag" title="Bag">
+                        </div>
+                        <div class="img-column">
+                            <img class="web image" src="assets/img-gallery/t-shirt.png" alt="T-shirt" title="T-shirt">
+                            <img class="web image" src="assets/img-gallery/Flyer-2.png" alt="Flyer" title="Flyer">
+                        </div>
+                        <div class="img-column">
+                            <img class="web image" src="assets/img-gallery/flyer.png" alt="Flyer" title="Flyer">
+                            <img class="web image" src="assets/img-gallery/logo-fjallfixarn.png" alt="Fjällfixarn"
+                                title="Fjällfixarn">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="d-flex align-items-center justify-content-center row py-3 py-md-5">
+            <h2 class="text-center mt-5">Contact</h2>
+            <hr class="mx-auto w-50 mt-3" />
+            <div class="row justify-content-center pt-4">
+                <div class="col-10 col-md-3 text-center py-4">
+                    <i class="icon fas fa-envelope p-3"></i>
+                    <p class="pt-3">info@uglem.se</p>
+                </div>
+                <div class="col-10 col-md-3 text-center py-4">
+                    <i class="icon fas fa-phone p-3"></i>
+                    <p class="pt-3">+45 70 309 52 56</p>
+                </div>
+                <div class="col-10 col-md-3 text-center py-4">
+                    <i class="icon fas fa-map-marker-alt p-3"></i>
+                    <p class="pt-3">Hede, Härjedalen</p>
+                </div>
+            </div>
+            <div class="form-container mx-auto px-auto d-flex justify-content-center">
+                <div class="col-10 col-md-6">
+                    <h3 class="pt-5">Send me an email!</h3>
+                    <form method="post" action="mailto:info@uglem.se" enctype="multipart/form-data" name="EmailForm" >
+                        <label for="name">full name</label>
+                        <input type="text" id="name" class="input-field col-12" placeholder="Name" required>
+                        <label for="email">email</label>
+                        <input type="email" id="email" class="input-field col-12 mt-2" placeholder="Email" required>
+                        <label for="message">message</label>
+                        <textarea name="message" id="message" class="input-field col-12 mt-2" rows="10"
+                            placeholder="Message" required></textarea>
+                        <div class="button">
+                            <button type="submit" value="submit" class="btn-main px-4 py-2 mt-2">send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container-xl">
+        <div class="footer py-md-5 py-3">
+            <hr />
+            <nav class="navbar navbar-expand-lg navbar-dark justify-content-center">
+                <a class="web d-none d-md-block col-2 " href="index.html">
+                    <img class="img-fluid" src="assets/logotype.svg" alt="logotype" title="Uglem Logotype" width="90px">
+                </a>
+                <div class="col-6">
+                    <div class="collapse navbar-collapse justify-content-center">
+                        <div class="navbar-nav ml-auto">
+                            <a href="#about" class="nav-item nav-link active text-end"><span>about me</span></a>
+                            <a href="#experience" class="nav-item nav-link active text-end"><span>experience</span></a>
+                            <a href="#work" class="nav-item nav-link active text-end"><span>work</span></a>
+                            <a href="#contact" class="nav-item nav-link active text-end"><span>contact</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-md-block col-2 text-center">
+                    <a href="https://www.facebook.com/sissel.uglem" aria-label="Go to facebook"><i
+                            class="icon-footer fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/sisseluglem/" aria-label="Go to Instagram"><i
+                            class="icon-footer fab fa-instagram"></i></a>
+                </div>
+                <div class="col-10 d-md-none py-4 py-md-0">
+                    <img class="img-fluid" src="assets/logotype.svg" alt="Logotype" title="Uglem Logotype">
+                </div>
+            </nav>
+            <hr class="d-none d-md-block" />
+        </div>
+    </footer>
+    <script src="scroll.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
