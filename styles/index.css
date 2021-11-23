@@ -127,6 +127,13 @@ ul li {
         width: 100%;
         max-width: none;
       }
+
+    @media screen and (max-width: 455px) {
+        .experience__headline {
+            font-size: 22px;
+            line-height: 27px;
+        }
+    }
 }
 /*------------end work----------->*/
 /*------------contact----------->*/
